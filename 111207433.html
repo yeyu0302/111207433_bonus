@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding-top: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form-group {
+            margin: 0 auto;
+            width: 150%; 
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .form1 {
+            width: 80%; 
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            float: initial; 
+        }
+
+        .form2 {
+            width: 25%; 
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            float:initial; 
+        }
+
+        .form3 {
+            width: 25%; 
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            float:initial 
+        }
+
+        .form4{
+            width: 50%; 
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            float:initial 
+        }
+
+        .form5 {
+            width: 80%;
+            height: 100px; 
+            resize: none; 
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+
+
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .form-group img {
+            width: 50%; 
+            height: 50%; 
+            margin-bottom: 10px; 
+        }
+    </style>
+    <title>111207433</title>
+</head>
+<body>
+    <form>
+        <div class="form-group">
+            <label for="input1">Input 1:</label>
+            <input class="form1" type="text" id="input1" name="input1" placeholder="input1">
+        </div>
+
+        <div class="form-group">
+            <p>Input 2:
+            <input class="form2" type="text" id="input2" name="input2" placeholder="input2">
+            Input 3:
+            <input class="form3" type="text" id="input3" name="input3" placeholder="input3">
+            </p>
+        </div>
+        <div class="form-group">
+            <label for="input4">Input 4:</label>
+            <input class="form4" type="text" id="input4" name="input4" placeholder="input4">
+        </div>
+        <div class="form-group clearfix">
+            <p>Textarea:
+            <textarea class="form5" id="input4" name="input5" placeholder="Your text here"></textarea>
+            </p>
+        </div>
+        <div class="form-group">
+            <img src="Usagi.webp" alt="Description of the image">
+        </div>
+
+    </form>
+</body>
+</html>
